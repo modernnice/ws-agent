@@ -67,7 +67,7 @@ streamlit run app.py
 
 ### 4. 初始化RAG向量知识库
 
-在首次对话（进行卡牌或规则查询）前，还需要将本地的卡牌 JSON 数据和规则文档写入向量数据库。英文卡牌数据库来源：https://github.com/CCondeluci/WeissSchwarz-ENG-DB 
+在首次进行卡牌或规则查询前，还需要将本地的卡牌 JSON 数据和规则文档写入向量数据库。英文卡牌数据库来源：https://github.com/CCondeluci/WeissSchwarz-ENG-DB 
 
 本仓库英文数据当前更新版本为 2026-03-11T05:44:42+00:00
 
@@ -79,7 +79,6 @@ streamlit run app.py
 
 ```bash
 # 初始化向量数据库 (ChromaDB)
-export PYTHONPATH=$PYTHONPATH:.
 python3 rag/vector_store.py
 ```
 
