@@ -51,7 +51,7 @@ streamlit run app.py
 
 ### 3. 配置 API Key
 
-本项目依赖多个大模型服务，在第一次对话开始前，请在启动后的 Web 界面侧边栏设置界面中填写或修改您的模型 URL 和各项 API Key（推荐） ，或在`config/agent.yml` 中配置。
+本项目依赖多个大模型服务，在第一次对话开始前，请在启动后的 Web 界面侧边栏设置界面中填写或修改您的模型 URL 和各项 API Key（推荐） ，或复制 `config/agent.yml.example` 为 `config/agent.yml` 并填写配置。
 
 - **Chat Model**: 默认使用 DeepSeek-Chat (OpenAI 兼容接口)
 - **Embedding Model**: 默认使用 text-embedding-v4 (Aliyun DashScope兼容接口)
