@@ -43,21 +43,21 @@ source venv/bin/activate  # Linux/macOS
 pip install -r requirements.txt
 ```
 
-### 2. 启动应用
-
-```bash
-streamlit run app.py
-```
-
-启动后，浏览器将自动打开 `http://localhost:8501`。
-
-### 3. 配置 API Key
+### 2. 配置 API Key
 
 本项目依赖多个大模型服务，在第一次对话开始前，请修改 `config/agent.yml.example` 为 `config/agent.yml` 并填写配置，或在启动后的 Web 界面侧边栏设置界面中填写或修改您的模型 URL 和各项 API Key（推荐）。
 
 - **Chat Model**: 默认使用 DeepSeek-Chat (OpenAI 兼容接口)
 - **Embedding Model**: 默认使用 text-embedding-v4 (Aliyun DashScope兼容接口)
 - **Search Tools**: 默认使用Baidu AI Search (百度搜索API，用于联网搜索), ShuyanAI (数眼智能国际版API，用于网页抓取)，可自行替换其他联网搜索和网页抓取API
+
+### 3. 启动应用
+
+```bash
+streamlit run app.py
+```
+
+启动后，浏览器将自动打开 `http://localhost:8501`。
 
 ### 4. 初始化知识库
 
