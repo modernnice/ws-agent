@@ -84,7 +84,7 @@ python3 rag/vector_store.py
 
 执行上述命令后，会自动在项目目录下创建向量数据库 `WeissSchwarz_db`和`md5`文件。
 
-#### 现在您可以自由与Weiss Schwarz Agent进行对话了！
+### 现在您可以自由与Weiss Schwarz Agent进行对话了！
 
 ---
 
