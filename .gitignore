@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Environment variables
+.env
+
+# Local configuration with secrets
+config/agent.yml
+
+# Logs
+logs/
+*.log
+
+# Database and State
+WeissSchwarz_db/
+md5.text
+
+# macOS
+.DS_Store
+
+# IDEs
+.vscode/
+.idea/

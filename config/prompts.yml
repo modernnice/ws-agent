@@ -1,0 +1,2 @@
+main_path: prompts/main.txt
+rag_path: prompts/rag.txt

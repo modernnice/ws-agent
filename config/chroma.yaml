@@ -1,0 +1,22 @@
+collection_name: WeissSchwarz_card
+persist_directory: WeissSchwarz_db
+k: 8
+data_path: data
+md5_hex_store: md5.text
+allow_knowledge_file_type:
+- json
+- pdf
+- md
+chunk_size: 200
+chunk_overlap: 20
+separators:
+- "\n\n"
+- "\n"
+- .
+- '!'
+- '?'
+- 。
+- ！
+- ？
+- ' '
+- ''

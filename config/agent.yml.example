@@ -1,0 +1,10 @@
+chat_model: deepseek-chat
+embedding_model: text-embedding-v4
+chat_api_key: YOUR_CHAT_API_KEY_HERE
+embed_api_key: YOUR_EMBED_API_KEY_HERE
+BAIDU_AI_SEARCH_API_KEY: YOUR_BAIDU_AI_SEARCH_API_KEY_HERE
+SHUYANAI_API_KEY: YOUR_SHUYANAI_API_KEY_HERE
+chat_base_url: https://api.deepseek.com/v1
+embedding_base_url: https://dashscope.aliyuncs.com/compatible-mode/v1
+BAIDU_AI_SEARCH_URL: https://qianfan.baidubce.com/v2/ai_search
+SHUYANAI_READER_URL: https://api.dataeyes.ai/v1/reader
