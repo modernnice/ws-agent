@@ -49,7 +49,9 @@ class VectorStore:
         files = FileHandler.get_files_by_extensions(self.data_path, exts)
         logger.info(f"扫描到 {len(files)} 个文件")
 
-        for f_path in files:
+        # 使用 tqdm 进度条
+        from tqdm import tqdm
+        for f_path in tqdm(files, desc="Processing files", unit="file"):
             try:
                 md5 = FileHandler.calculate_file_hash(f_path)
                 if md5 in processed: 
