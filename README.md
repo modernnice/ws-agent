@@ -84,7 +84,7 @@ streamlit run app.py
 python3 rag/vector_store.py
 ```
 
-执行上述命令后，会自动在项目目录下创建向量数据库 `WeissSchwarz_db`和`md5`文件。
+执行上述命令后，会自动在项目目录下创建向量数据库 `WeissSchwarz_db`和`md5`文件。首次初始化向量数据库会消耗较长时间，请耐心等待。
 
 ### 现在您可以自由与Weiss Schwarz Agent进行对话了！
 
