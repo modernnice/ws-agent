@@ -1,15 +1,15 @@
 deepagents==0.4.1
-streamlit
-requests
-PyYAML
+streamlit==1.55.0
+requests==2.32.5
+PyYAML==6.0.3
 
-langgraph
-langchain-core
-langchain-openai
-langchain-community
-langchain-chroma
-langchain-text-splitters
-chromadb
-pypdf
+langgraph==1.0.9
+langchain-core==1.2.16
+langchain-openai==1.1.10
+langchain-community==0.4.1
+langchain-chroma==1.1.0
+langchain-text-splitters==1.1.1
+chromadb==1.5.1
+pypdf==6.7.4
 
-dashscope
+dashscope==1.25.12
