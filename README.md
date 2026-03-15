@@ -63,7 +63,9 @@ streamlit run app.py
 ./venv/bin/streamlit run app.py
 ```
 
-启动后，浏览器将自动打开 `http://localhost:8501`。
+启动后，浏览器将自动打开 `http://localhost:8501`。正确启动后，可以看到如下界面：
+
+![图片描述](./chat_page.png)
 
 ### 4. 初始化RAG向量知识库
 
