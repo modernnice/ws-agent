@@ -65,9 +65,11 @@ streamlit run app.py
 
 启动后，浏览器将自动打开 `http://localhost:8501`。
 
-### 4. 初始化知识库
+### 4. 初始化RAG向量知识库
 
-在首次对话（进行卡牌或规则查询）前，还需要将本地的卡牌 JSON 数据和规则文档写入向量数据库。英文卡牌数据库来源：https://github.com/CCondeluci/WeissSchwarz-ENG-DB
+在首次对话（进行卡牌或规则查询）前，还需要将本地的卡牌 JSON 数据和规则文档写入向量数据库。英文卡牌数据库来源：https://github.com/CCondeluci/WeissSchwarz-ENG-DB 
+
+本仓库英文数据当前更新版本为 2026-03-11T05:44:42+00:00
 
 也可选择自行将英文数据库替换为日文数据库并重新向量化入库：https://github.com/CCondeluci/WeissSchwarz-JP-DB
 
@@ -83,7 +85,7 @@ python3 rag/vector_store.py
 
 执行上述命令后，会自动在项目目录下创建向量数据库 `WeissSchwarz_db`和`md5`文件。
 
-##### 现在您可以自由与Weiss Schwarz Agent进行对话了！
+#### 现在您可以自由与Weiss Schwarz Agent进行对话了！
 
 ---
 
