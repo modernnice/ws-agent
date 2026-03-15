@@ -1,6 +1,6 @@
 # Weiss Schwarz Agent (WS Agent)
 
-[![Python](https://img.shields.io/badge/Python-3.10%2B-blue)](https://www.python.org/)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
 [![Streamlit](https://img.shields.io/badge/Streamlit-1.42.0-red)](https://streamlit.io/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agent-green)](https://github.com/langchain-ai/langgraph)
 
@@ -27,7 +27,7 @@
 
 ### 1. 环境准备
 
-确保您的系统已安装 **Python 3.10** 或更高版本。
+确保您的系统已安装 **Python 3.11** 或更高版本。
 
 ```bash
 # 克隆项目
