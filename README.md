@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ### 2. 配置 API Key
 
-本项目依赖多个大模型服务，在第一次对话开始前，请取消 `config/agent.yml.example` 的`.example` 后缀，将文件名改为 `config/agent.yml` 并填写配置，或在启动后的 Web 界面侧边栏设置界面中填写或修改您的模型 URL 和各项 API Key（推荐）。
+本项目依赖多个大模型服务，在第一次对话开始前，请务必取消 `config/agent.yml.example` 的`.example` 后缀，将文件名改为 `config/agent.yml` 并填写您拥有的模型和工具配置，后续也可以在启动后的 Web 界面侧边栏设置界面中便捷修改您的模型 URL 和各项 API Key。
 
 - **Chat Model**: 默认使用 DeepSeek-Chat (OpenAI 兼容接口)
 - **Embedding Model**: 默认使用 text-embedding-v4 (Aliyun DashScope兼容接口)
