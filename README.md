@@ -1,7 +1,7 @@
 # Weiss Schwarz Agent (WS Agent)
 
 [![Python](https://img.shields.io/badge/Python-3.11%2B-blue)](https://www.python.org/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.42.0-red)](https://streamlit.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.55.0-red)](https://streamlit.io/)
 [![LangGraph](https://img.shields.io/badge/LangGraph-Agent-green)](https://github.com/langchain-ai/langgraph)
 
 **Weiss Schwarz Agent** 是一个专为集换式卡牌游戏 **Weiss Schwarz (黑白双翼，WS)** 设计的垂直领域 AI 智能助手。
